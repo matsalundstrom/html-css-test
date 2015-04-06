@@ -32,6 +32,9 @@ gulp.task('html', function() {
 gulp.task('watch', function() {
 
     // Watch .scss files
+    gulp.watch('src/*.html', ['html']);
+
+    // Watch .scss files
     gulp.watch('src/styles/**/*.scss', ['sass']);
 
     // Watch .js files

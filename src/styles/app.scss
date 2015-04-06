@@ -1,8 +1,22 @@
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
-  background-color: #1220fe;
+  background-color: blue;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+
+}
+

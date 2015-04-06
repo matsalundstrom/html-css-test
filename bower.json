@@ -1,0 +1,12 @@
+{
+  "name": "html-css-test",
+  "description": "A html css start",
+  "version": "0.0.1",
+  "homepage": "https://github.com/matsalundstrom/html-css-test",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalize-css": "~3.0.3"
+  },
+  "devDependencies": {}
+}
